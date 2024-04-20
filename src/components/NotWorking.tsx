@@ -1,5 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import { useToggle } from "~/utils/useToggle";
+import { createToggle as useToggle } from "~/utils/createToggle";
 import Btn from "~/components/Btn";
 
 export default component$(() => {
