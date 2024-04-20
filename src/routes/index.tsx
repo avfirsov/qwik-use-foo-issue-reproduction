@@ -1,6 +1,5 @@
 import { component$, useStylesScoped$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { useToggle } from "~/utils/useToggle";
 import Working from "~/components/Working";
 import NotWorking from "~/components/NotWorking";
 
