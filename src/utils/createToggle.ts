@@ -7,6 +7,7 @@ export type Toggle<State> = {
 };
 
 export const createToggle = <State>(states: State[]): Toggle<State> => {
+  // eslint-disable-next-line
   const state = useSignal(0);
   const getCurrentState = $((): State => states[state.value]);
 

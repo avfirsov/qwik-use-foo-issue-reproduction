@@ -1,6 +1,6 @@
-import { component$, useStylesScoped$ } from "@builder.io/qwik";
+import {component$, QRL, useStylesScoped$} from "@builder.io/qwik";
 
-export default component$<{ onClick$: () => void }>(({ onClick$ }) => {
+export default component$<{ onClick$: QRL<() => void> }>(({ onClick$ }) => {
   useStylesScoped$(`
     .btn {
         width: 60px;
